@@ -1,0 +1,22 @@
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}
+\IEEEoverridecommandlockouts
+\overrideIEEEmargins
+
+\input{_style/dependencies.tex}
+
+\graphicspath{{./graphics/}}
+
+\begin{document}
+\input{frontmatter/_pdfinfo.tex}
+\input{frontmatter/title.tex}
+\input{frontmatter/authors.tex}
+
+\begin{abstract}
+	\input{content/abstract.tex}
+\end{abstract}
+
+\input{content/body.tex}
+
+\bibliographystyle{bibliography/_style/IEEEtran.bst}
+\bibliography{bibliography/bibliography.bib}
+\end{document}
